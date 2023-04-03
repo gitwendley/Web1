@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar</title>
+    <script src="https://kit.fontawesome.com/cc76fba736.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+        body {
+            margin: 0;
+            background-color: aliceblue;
+        }
+
+        .sidebar {
+            position: fixed;
+            width: 210px;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            background: #111;
+            padding-top: 50px;
+        }
+
+        .sidebar h1 {
+            display: block;
+            padding: 10px 20px;
+            color: #fff;
+            text-decoration: none;
+            font-family: "Rubik";
+            letter-spacing: 2px;
+            font-weight: 400;
+            margin: 0;
+            font-size: 25px;
+            text-transform: uppercase;
+        }
+
+        .sidebar a {
+            display: block;
+            padding: 10px 20px;
+            color: #bbb;
+            text-decoration: none;
+            
+        }
+
+        .sidebar a:hover {
+            color: #fff;
+            margin-left: 20px;
+            transition: 0.4s;
+        }
+
+        .middle-content {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 0 auto;
+            width: 80%;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .middle-content p {
+            padding: 40px;
+            margin: 50px auto;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .profile-card {
+            background-size: contain;
+            background-image: url("https://i.ibb.co/vV25GqR/back.jpg");
+            
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            color: #333;
+         }
+         
+         .profile-card img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-bottom: 10px;
+         }
+         
+         .profile-card h2 {
+            color: #fff;
+            margin: 0;
+            font-size: 24px;
+            text-transform: uppercase;
+         }
+         
+         .profile-card p {
+            color: #fff;
+            margin: 0;
+            font-size: 18px;
+         }
+         
+         .profile-card ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+         }
+         
+         .profile-card li {
+            display: inline-block;
+            margin-right: 10px;
+         }
+         
+         .profile-card a {
+            display: block;
+            padding: 5px;
+            border-radius: 5px;
+            color: #fff;
+            background-color: #333;
+            text-decoration: none;
+            transition: background-color 0.3s ease-in-out;
+         }
+         
+         .profile-card a:hover {
+            background-color: #111;
+         }
+         
+
+        /* Responsive Styles */
+        @media screen and (max-width: 768px) {
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+
+            .sidebar a {
+                color: #fff;
+            }
+
+            .sidebar a:hover {
+                margin-left: 0;
+            }
+
+            .middle-content {
+                width: 100%;
+                padding: 10px;
+            }
+
+            .middle-content p {
+                padding: 20px;
+                margin: 20px auto;
+            }
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h1>Brand </h1>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Portfolio</a>
+        <a href="">Service</a>
+        <a href="https://t.me/code_with_top">Join US on Telegram</a>
+        <p>To contact us, please send an email to <a href="mailto:topcoding200@gmail.com">topcoding200@gmail.com</a>.</p>
+    </div>
+
+    <div class="middle-content">
+        <h2>Welcome to My website</h2>
+        
+    </div>
+
+    <div class="profile-card">
+        <img src="https://i.ibb.co/L9mHDzk/IMG-1308.png" alt="IMG-1308" border="0">
+        
+        <h2>Top Code </h2>
+        <p>Front End DEV</p>
+        <ul>
+           <p> Follow Us on Social Media</p>
+            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-github"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-tiktok"></i></a></li>
+            <li><a href=""><i class="fa-brands fa-telegram"></i></a></li>
+        </ul>
+     </div>
+     
+</body>
+</html>
